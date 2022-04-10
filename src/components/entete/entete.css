@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    min-height: 5vh;
+    height: 7vh;
+    border: #282c34 solid 1px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 20vw;
+    width: 30vw;
+    border: #282c34 solid 1px;
+}
+
+a, a :visited{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #282c34;
+    border: #282c34 solid 1px;
+}
