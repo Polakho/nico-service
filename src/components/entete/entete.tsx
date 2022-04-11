@@ -1,17 +1,21 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import "./entete.css"
+import {Navbar, Nav, Container} from "react-bootstrap";
 
 const Entete= () => {
 
     return (
-        <div className={"navbar"}>
-            <nav>
-                <Link to={"/"}><img src="" alt="logo" id="logo"/></Link>
-                <Link to={"/devis"}>Devis</Link>
-                <Link to={"/contact"}>Contact</Link>
-            </nav>
-        </div>
+        <Navbar className={"navBar"}  variant="dark">
+            <Container>
+                <Navbar.Brand href="#home">Logo</Navbar.Brand>
+                <Nav className="me-auto">
+                    <Nav.Link href={"/"}>Acceuil</Nav.Link>
+                    <Nav.Link href={"/devis"}>Devis</Nav.Link>
+                    <Nav.Link href={"/contact"}>Contact</Nav.Link>
+                </Nav>
+            </Container>
+        </Navbar>
 
     )
 }
