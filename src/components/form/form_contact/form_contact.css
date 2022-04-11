@@ -1,0 +1,44 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin : 10vh 20vh;
+}
+
+.form-contact{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-contact-entete{
+    border-radius: 4px 4px 0 0 ;
+    background-color: cadetblue;
+}
+
+.form-contact-body{
+    border : 1px solid ;
+    border-top: none;
+    border-radius: 0 0 2px 2px;
+}
+
+h2, p{
+    display: flex;
+    flex-direction: row;
+}
+
+h2, p, input, .row, textarea{
+   margin: 10px;
+}
+
+#form-contact-send{
+
+    width: min-content;
+}
